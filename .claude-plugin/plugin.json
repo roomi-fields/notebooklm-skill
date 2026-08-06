@@ -1,0 +1,23 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
+  "name": "notebooklm-skill",
+  "version": "1.0.0",
+  "description": "Query your Google NotebookLM notebooks from Claude Code: citation-backed, source-grounded answers from your own documents, plus Studio generation (audio, report, video, infographic, presentation, data table, flashcards, quiz, mind map) and web source discovery. Teaches the agent citation formats, the daily-quota-aware batch-to-cache pattern, and which transport to use.",
+  "author": {
+    "name": "roomi-fields",
+    "url": "https://github.com/roomi-fields"
+  },
+  "homepage": "https://github.com/roomi-fields/notebooklm-skill",
+  "repository": "https://github.com/roomi-fields/notebooklm-skill",
+  "license": "MIT",
+  "keywords": [
+    "notebooklm",
+    "gemini",
+    "citations",
+    "research",
+    "skill",
+    "qa",
+    "rag",
+    "studio"
+  ]
+}

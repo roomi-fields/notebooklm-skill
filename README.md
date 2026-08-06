@@ -22,7 +22,19 @@ This skill drives the [`@roomi-fields/notebooklm-mcp`](https://github.com/roomi-
 
 ## Install
 
-Copy the `notebooklm/` directory into your Claude Code skills folder (e.g. `~/.claude/skills/notebooklm/`), or install the [`@roomi-fields/notebooklm-mcp`](https://github.com/roomi-fields/notebooklm-mcp) plugin from the `roomi-fields/claude-plugins` marketplace which bundles it.
+**As a plugin** (recommended — gets the skill *and* the MCP server):
+
+```text
+/plugin marketplace add roomi-fields/claude-plugins
+/plugin install notebooklm@roomi-fields
+```
+
+**Or just the skill** — copy `skills/notebooklm/` into your skills folder:
+
+```bash
+git clone https://github.com/roomi-fields/notebooklm-skill.git
+cp -r notebooklm-skill/skills/notebooklm ~/.claude/skills/
+```
 
 Then log in to Google once (a visible Chrome window opens):
 
@@ -36,7 +48,7 @@ Just ask your agent things like:
 
 > "Ask my *Thesis* notebook what the main critiques of the framework are, with citations."
 
-The skill handles auth checks, transport selection, citation formatting, and the quota-aware batch pattern. See [`notebooklm/SKILL.md`](./notebooklm/SKILL.md).
+The skill handles auth checks, transport selection, citation formatting, and the quota-aware batch pattern. See [`skills/notebooklm/SKILL.md`](./skills/notebooklm/SKILL.md).
 
 ## License
 

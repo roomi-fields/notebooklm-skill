@@ -25,7 +25,7 @@ Free Google accounts cap NotebookLM at ~**50 chat queries/day**. Two levers:
 
 1. **Multi-account rotation** — the engine supports several Google accounts with
    auto-reauth; `/re-auth` switches accounts when a quota is hit.
-2. **Ingest once, retrieve forever** — treat NotebookLM as a one-shot *ingestion*
+2. **Ingest once, retrieve forever** — treat NotebookLM as a one-shot _ingestion_
    layer, not a live query backend for repeated questions (below).
 
 ## Batch → cache → offline retrieval (the scale pattern)

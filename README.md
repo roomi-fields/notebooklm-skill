@@ -8,7 +8,7 @@
 
 ---
 
-This skill drives the [`@roomi-fields/notebooklm-mcp`](https://github.com/roomi-fields/notebooklm-mcp) engine — the fastest, most complete NotebookLM automation (dual internal-RPC + browser transport, 45 REST endpoints, full Studio generation, multi-account). It works two ways, whichever your session already has:
+This skill drives the [`@roomi-fields/notebooklm-mcp`](https://github.com/roomi-fields/notebooklm-mcp) engine — the fastest, most complete NotebookLM automation (dual internal-RPC + browser transport, 53 REST endpoints, full Studio generation, multi-account). It works two ways, whichever your session already has:
 
 - **notebooklm MCP tools** if configured, or
 - the engine's **HTTP REST API** via the bundled `scripts/nblm.sh`.
